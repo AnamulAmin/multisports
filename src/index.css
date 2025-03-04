@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* Custom input */
+.customInput {
+    width: 100%;
+    margin-top: 0.50rem; 
+    padding: 0.5rem 0.75rem; 
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    outline: none;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  .customInput:focus {
+    border-color: #0e9e8b; 
+   
+  }
+
+/* Custom Button */
+.customSaveButton {
+    padding: 0.5rem 1rem; 
+    font-weight: 600;
+    border-radius: 1rem; 
+    color: white;
+    background-color: #2563eb;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+  
+  .customSaveButton:hover {
+    background-color: #1b52c9; 
+    /* box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.1);  */
+  }
+  
+  .customCancelButton {
+    padding: 0.5rem 1rem;
+    font-weight: 600; 
+    border-radius: 1rem; 
+    color: white;
+    background-color: #dc2626; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+  
+  .customCancelButton:hover {
+    background-color: #a61e1e; 
+    /* box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.1);  */
+  }
+
+  .customAddButton {
+    padding: 0.5rem 1rem;
+    font-weight: 600; 
+    border-radius: 1rem; 
+    color: white;
+    background-color: #2E3190; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+  
+  .customAddButton:hover {
+    background-color: #202256; 
+    /* box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.1);  */
+  }
+
+  .customRearrangeButton {
+    padding: 0.5rem 1rem;
+    font-weight: 600; 
+    border-radius: 1rem; 
+    color: white;
+    background-color: #31B349; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+  
+  .customRearrangeButton:hover {
+    background-color: #2e7d3de8; 
+    /* box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.1);  */
+  }
+
+/* ....................................... */
+
+/* Headings */
+
+.header{
+/* color: #2E3190; */
+}
+  

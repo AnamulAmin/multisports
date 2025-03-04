@@ -1,0 +1,127 @@
+[
+  {
+    "zone_id": 534,
+    "zone_name": "Barura",
+    "city_id": 5
+  },
+  {
+    "zone_id": 91,
+    "zone_name": "B.Para",
+    "city_id": 5
+  },
+  {
+    "zone_id": 92,
+    "zone_name": "Burichang",
+    "city_id": 5
+  },
+  {
+    "zone_id": 741,
+    "zone_name": "Cantonment",
+    "city_id": 5
+  },
+  {
+    "zone_id": 98,
+    "zone_name": "Chandina",
+    "city_id": 5
+  },
+  {
+    "zone_id": 97,
+    "zone_name": "Chauddagram",
+    "city_id": 5
+  },
+  {
+    "zone_id": 732,
+    "zone_name": "Comilla Companigonj",
+    "city_id": 5
+  },
+  {
+    "zone_id": 93,
+    "zone_name": "Cumilla Sadar",
+    "city_id": 5
+  },
+  {
+    "zone_id": 545,
+    "zone_name": "Daudkandi",
+    "city_id": 5
+  },
+  {
+    "zone_id": 99,
+    "zone_name": "Devidwar",
+    "city_id": 5
+  },
+  {
+    "zone_id": 736,
+    "zone_name": "Eliotgonj",
+    "city_id": 5
+  },
+  {
+    "zone_id": 737,
+    "zone_name": "Gouripur",
+    "city_id": 5
+  },
+  {
+    "zone_id": 96,
+    "zone_name": "Homna",
+    "city_id": 5
+  },
+  {
+    "zone_id": 731,
+    "zone_name": "Kotbari",
+    "city_id": 5
+  },
+  {
+    "zone_id": 94,
+    "zone_name": "Laksam",
+    "city_id": 5
+  },
+  {
+    "zone_id": 735,
+    "zone_name": "Lalmai",
+    "city_id": 5
+  },
+  {
+    "zone_id": 740,
+    "zone_name": "Megna",
+    "city_id": 5
+  },
+  {
+    "zone_id": 552,
+    "zone_name": "Mia-Bazar",
+    "city_id": 5
+  },
+  {
+    "zone_id": 733,
+    "zone_name": "Monohorgonj",
+    "city_id": 5
+  },
+  {
+    "zone_id": 103,
+    "zone_name": "Muddafarganj",
+    "city_id": 5
+  },
+  {
+    "zone_id": 553,
+    "zone_name": "Muradnagar",
+    "city_id": 5
+  },
+  {
+    "zone_id": 95,
+    "zone_name": "Nangolkot",
+    "city_id": 5
+  },
+  {
+    "zone_id": 734,
+    "zone_name": "Sadar Dakkhin",
+    "city_id": 5
+  },
+  {
+    "zone_id": 738,
+    "zone_name": "South Daudkandi",
+    "city_id": 5
+  },
+  {
+    "zone_id": 739,
+    "zone_name": "Titash",
+    "city_id": 5
+  }
+]

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Confirmation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+      }
+      .email-container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .header {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .content {
+        padding: 20px;
+      }
+      .content h2 {
+        color: #333;
+      }
+      .content p {
+        margin: 8px 0;
+        color: #555;
+      }
+      .order-details {
+        margin: 20px 0;
+        padding: 15px;
+        background: #f5f5f5;
+        border-radius: 8px;
+      }
+      .order-details table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .order-details table th,
+      .order-details table td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      .order-details table th {
+        background: #4caf50;
+        color: white;
+      }
+      .footer {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- <div class="email-container">
+      <div class="email-header">
+        <h1>Order Confirmation</h1>
+      </div>
+
+      <div class="email-body">
+        <p>Dear {{name}},</p>
+        <p>Thank you for your order! Below are the details of your purchase:</p>
+
+        <div class="order-summary">
+          <h3>Order Summary:</h3>
+          <table>
+            <tr>
+              <th>Product</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Total</th>
+            </tr>
+            {{#each items}}
+            <tr>
+              <td>{{this.productTitle}}</td>
+              <td>{{this.quantity}}</td>
+              <td>{{this.price}}</td>
+              <td>{{calcTotal this.quantity this.price}}</td>
+            </tr>
+            {{/each}}
+          </table>
+          <p><strong>Delivery Charge:</strong> {{deliveryCharge}}</p>
+          <p><strong>Total:</strong> {{total}}</p>
+        </div>
+
+        <p><strong>Shipping Details:</strong></p>
+        <p>
+          {{address}},<br />
+          {{area_name}}, {{city_name}}<br />
+          Phone: {{phone}}
+        </p>
+
+        <p><strong>Payment Method:</strong> {{payment_method}}</p>
+      </div>
+
+      <div class="email-footer">
+        <p>
+          Need assistance? Contact us at
+          <a href="mailto:support@example.com">support@example.com</a>.
+        </p>
+        <p>Thank you for shopping with us!</p>
+      </div>
+    </div> -->
+    <div id="root"></div>
+    <script src="./email.js"></script>
+  </body>
+</html>
