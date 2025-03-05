@@ -1,8 +1,12 @@
 {
-  "rewrites": [
+  "build": {
+    "outputDirectory": "dist"
+  },
+  "routes": [
     {
-      "source": "/(./*)",
-      "destination": "/api"
+      "src": "/[^.]+",
+      "dest": "/",
+      "status": 200
     }
   ]
 }
