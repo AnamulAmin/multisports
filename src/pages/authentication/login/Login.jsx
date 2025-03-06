@@ -12,8 +12,8 @@ import { useAuth } from "../../../providers/AuthProvider";
 export default function Login() {
   const { setUser } = useAuth();
   const [passwordVisible, setPasswordVisible] = useState(false);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("test1234@gmail.com");
+  const [password, setPassword] = useState("Multi_Sport$1234");
   const [subscribe, setSubscribe] = useState(false);
   const [recaptcha, setRecaptcha] = useState("");
   const pathName = useLocation().pathname;
